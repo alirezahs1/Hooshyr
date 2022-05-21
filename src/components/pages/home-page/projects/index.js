@@ -1,11 +1,13 @@
 import { Story } from "components/ui";
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Virtual, Navigation, Autoplay, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+import 'swiper/css/virtual';
 
 export const Projects = () => {
 
@@ -111,24 +113,26 @@ export const Projects = () => {
 	]
 
 	return (
-		<section className="projects">
-			<div className="max-w-6xl mx-auto">
+		<section className="projects min-h-screen flex flex-col">
+			<div className="max-w-6xl mx-auto my-auto">
 				<h2 className="text-6xl font-bold mb-16">
 					Older projects
 					<span className="text-pink-600">.</span>
 				</h2>
 				<Swiper
-					modules={[Navigation, Scrollbar, A11y]}
+					modules={[Navigation, Scrollbar, A11y, Autoplay, Virtual]}
 					navigation
+					virtual
 					scrollbar={{ draggable: true }}
+					autoplay={{ delay: 4000, running: true }}
 
 					spaceBetween={25}
 					slidesPerView={4}
-					onSlideChange={() => console.log('slide change')}
-					onSwiper={(swiper) => console.log(swiper)}
+					// onSlideChange={() => console.log('slide change')}
+					// onSwiper={(swiper) => console.log(swiper)}
 				>
 					{projects?.map( (proj, index) => 
-							<SwiperSlide key={index}>
+							<SwiperSlide key={index} virtualIndex={index}>
 								<Story {...proj} />
 							</SwiperSlide>
 						)}
