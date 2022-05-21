@@ -36,6 +36,11 @@ export const Achivments = ({...rest}) => {
 						date: "2019",
 						description: "I've been the first person to win the World Cup in the World Cup 2018."
 					},
+					{
+						title: "First Place in the World",
+						date: "2019",
+						description: "I've been the first person to win the World Cup in the World Cup 2018."
+					},
 				]} />
 			</div>
 		</section>

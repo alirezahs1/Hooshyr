@@ -53,7 +53,7 @@ export const Timeline = ({items}) => {
 					`} style={{height: scrolledPercent + '%'}}></div>
 				</div>
 			{items?.map( (item, index) => 
-					<TimelineItem className="mb-20" reverse={index%2} {...item} />
+					<TimelineItem key={index} className="mb-20" reverse={index%2} {...item} />
 				)}
 		</div>
 	)

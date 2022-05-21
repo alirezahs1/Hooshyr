@@ -28,7 +28,7 @@ export const Header = () => {
 	return (
 		<header className={`fixed top-0 inset-x-0 px-12 py-6 z-50 transition-colors duration-700 ${scrolled ? "bg-neutral-900" : ""}`}>
 			<div className="w-40 h-10 relative">
-				<Image src={LogoImg} alt="Hooshyar" width={200} layout="fill" />
+				<Image src={LogoImg} alt="Hooshyar" layout="fill" />
 			</div>
 		</header>
 	)

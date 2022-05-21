@@ -16,7 +16,7 @@ export const Intro = () => {
 	return (
 		<section className="h-screen pt-20 min-h-[900px] relative">
 			<div className="absolute inset-0">
-				<Image src={BGImg} alt="Hooshyar" width={2500} height={1464} layout="fill" objectFit="cover" objectPosition="right bottom" />
+				<Image src={BGImg} alt="Hooshyar" layout="fill" objectFit="cover" objectPosition="right bottom" />
 			</div>
 			<div className="max-w-6xl mx-auto flex flex-col justify-center relative h-full">
 				<div className="max-w-4xl">
