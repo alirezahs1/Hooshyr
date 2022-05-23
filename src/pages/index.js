@@ -14,7 +14,7 @@ export default function Home() {
 			{/* og tags */}
 			<meta property="og:title" content="Home - Hooshyr" />
 			<meta property="og:description" content="Hooshyr is a web developer based in Tehran, Iran. He is a passionate about web development." />
-			<meta property="og:image" content="https://hooshyr.com/media/logo.jpg" />
+			<meta property="og:image" content="https://hooshyr.com/media/logo.png" />
 			<meta property="og:url" content="https://hooshyr.com" />
 			<meta property="og:type" content="website" />
 			<meta property="og:site_name" content="Hooshyr" />
