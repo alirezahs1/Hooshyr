@@ -40,7 +40,7 @@ export const Timeline = ({items}) => {
 		<div ref={timelineRef} className="relative flex flex-col">
 			<div className={`
 					absolute
-					left-1/2 top-[4.2rem] bottom-12 -translate-x-1/2
+					lg:left-1/2 -translate-x-1/2 top-[4.2rem] bottom-12
 					bg-white
 					w-1
 					rounded-full

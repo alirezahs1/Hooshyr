@@ -2,12 +2,14 @@ import Image from "next/image"
 
 export const Story = ({className, title, image, text, href, meta, ...rest}) => {
 	return (
-		<a href={href} target="_blank" className={`
+		<a href={href} target="_blank" rel="noreferrer" className={`
 					block relative
 					p-6
 					border-2
 					hover:bg-neutral-900 
 					transition-colors duration-200
+
+					max-w-sm mx-auto
 
 					before:absolute before:content-['']
 					before:top-full before:left-1/2 before:-translate-x-1/2
@@ -23,8 +25,8 @@ export const Story = ({className, title, image, text, href, meta, ...rest}) => {
 					${className}
 				`}>
 			{/* <a target="_blank" className="block" href={href}> */}
-				<div className="mb-2">
-					<Image className="rounded-lg" src={image} alt={title} width={600} height={400} />
+				<div className="mb-2 ">
+					<img className="rounded-lg w-full h-full object-cover" src={image} alt={title} />
 				</div>
 				<h5 className="text-xl font-semibold mb-4">
 					{title}

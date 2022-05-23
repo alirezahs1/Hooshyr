@@ -3,7 +3,7 @@ export const WavoButton = ({className, children, ...rest}) => {
 		<button className={`
 					relative overflow-hidden
 					border-2
-					py-3 px-6
+					py-2 sm:py-3 px-4 sm:px-6
 					uppercase
 					tracking-[3px]
 					transition-all duration-500 ease-[cubic-bezier(1, 0, 0.55, 1)]
