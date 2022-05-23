@@ -1,3 +1,5 @@
+import { WavoTitle } from "../../../typography/wavoTitle"
+
 export const Skills = () => {
 
 	const skills = [
@@ -46,10 +48,7 @@ export const Skills = () => {
 	return (
 		<section className="pb-40">
 			<div className="max-w-6xl mx-auto my-auto px-5 xl:px-0">
-				<h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 xl:mb-16">
-					Skills
-					<span className="text-pink-600">.</span>
-				</h2>
+				<WavoTitle>Skills</WavoTitle>
 				<div className="text-neutral-400 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 					{skills.map((skill, index) => (
 						<div key={index} className="">

@@ -8,8 +8,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import 'swiper/css/virtual';
+import { WavoTitle } from "../../../typography/wavoTitle";
+import { useInView } from "react-intersection-observer";
 
 export const Projects = () => {
+
+	const {inView, ref} = useInView();
 
 	/*
 	
@@ -178,12 +182,9 @@ export const Projects = () => {
 	]
 
 	return (
-		<section className="projects flex flex-col">
+		<section ref={ref} className="projects flex flex-col">
 			<div className="container max-w-6xl mx-auto px-5 xl:px-0">
-				<h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-16">
-					Older projects
-					<span className="text-pink-600">.</span>
-				</h2>
+				<WavoTitle>Older projects</WavoTitle>
 				<div className="max-w-full relative">
 					<Swiper
 						modules={[Navigation, Scrollbar, A11y, Autoplay, Virtual]}

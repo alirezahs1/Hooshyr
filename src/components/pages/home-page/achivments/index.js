@@ -1,14 +1,12 @@
 import { Timeline } from "components/ui"
+import { WavoTitle } from "../../../typography/wavoTitle"
 
 export const Achivments = ({...rest}) => {
 
 	return (
 		<section {...rest}>
 			<div className="max-w-6xl mx-auto px-5 xl:px-0 pt-20">
-				<h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-16">
-					Latest achivments
-					<span className="text-pink-600">.</span>
-				</h2>
+				<WavoTitle>Latest achivments</WavoTitle>
 				<Timeline items={[
 					{
 						title: "First Place in the World",

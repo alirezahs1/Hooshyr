@@ -1,14 +1,12 @@
 import LottieHeartEyes from 'static/img/lottie-heart-eyes.json';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { WavoTitle } from '../../../typography/wavoTitle';
 
 export const Biography = () => {
 	return (
 		<section className="pb-28">
 			<div className="max-w-6xl mx-auto my-auto px-5 xl:px-0">
-				<h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 xl:mb-16">
-					My story
-					<span className="text-pink-600">.</span>
-				</h2>
+				<WavoTitle>My story</WavoTitle>
 				<div className="text-neutral-400 leading-8 text-lg">
 					<p className="mb-4">
 						My journey begins with graphic design, working as a freelancer for clients all over the world for several years.
