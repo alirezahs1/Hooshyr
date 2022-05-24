@@ -17,7 +17,7 @@ export const Biography = () => {
 						Later on, I started studying computer engineering at the Ferdowsi University of Mashhad, and I decided to focus on my technical skills more seriously and strengthen them. So, I started learning Django and React.Js simultaneously, and after a while, I implemented various projects.
 					</p>
 					<p className="mb-4">
-						Over time, I have been able to work with a variety of technologies and tools, including Django-Rest-Framework, Celery, Nginx, and Django-Channels for the server-side and Redux, TypeScript, Sass, Styled-Components, and Tailwind for the client-side. Also, I'm familiar with Git and Linux-based OSs like ubuntu.
+						Over time, I have been able to work with a variety of technologies and tools, including Django-Rest-Framework, Celery, Nginx, and Django-Channels for the server-side and Redux, TypeScript, Sass, Styled-Components, and Tailwind for the client-side. Also, I&apos;m familiar with Git and Linux-based OSs like ubuntu.
 					</p>
 					<p className="mb-4">
 						After that, Front-End became my primary specialty, and I decided to work full time; I also used more technologies such as NextJS.
