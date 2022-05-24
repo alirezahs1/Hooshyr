@@ -46,7 +46,7 @@ export const Skills = () => {
 	]
 
 	return (
-		<section className="pb-40">
+		<section className="py-8 sm:pb-20">
 			<div className="max-w-6xl mx-auto my-auto px-5 xl:px-0">
 				<WavoTitle>Skills</WavoTitle>
 				<div className="text-neutral-400 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

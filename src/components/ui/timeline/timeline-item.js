@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer"
 
 export const TimelineItem = ({ className, title, date, description, url, reverse }) => {
 
-	const {inView, ref} = useInView();
+	const {inView, ref} = useInView({triggerOnce: true});
 
 	return (
 		<div ref={ref} className={`
@@ -41,10 +41,10 @@ export const TimelineItem = ({ className, title, date, description, url, reverse
 				}
 
 				ml-auto
-				${reverse ? "" : "lg:ml-0 lg:text-right"}
+				${reverse ? "" : "lg:ml-0"}
 
 				animate__animated
-				${inView ? "animate__fadeIn" : ""}
+				${inView ? "animate__fadeInUpSmall" : ""}
 
 				${className}
 			`}>

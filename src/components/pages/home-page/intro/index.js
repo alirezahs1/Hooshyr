@@ -16,10 +16,10 @@ import { WordAnimator } from '../../../ui/word-animator';
 
 export const Intro = () => {
 
-	const {ref, inView} = useInView();
+	const {ref, inView} = useInView({triggerOnce: true});
 
 	return (
-		<section className="h-[750px] sm:h-screen pt-20 sm:min-h-[700px] lg:min-h-[900px] relative overflow-hidden">
+		<section className="h-screen pt-20 sm:min-h-[700px] lg:min-h-[900px] relative overflow-hidden">
 			<div className="absolute left-0 -top-28  bottom-0 -right-72 sm:-right-60 md:-right-40 lg:-right-28 2xl:-right-28">
 				<Image src={BGImg} alt="Hooshyar" layout="fill" objectFit="cover" objectPosition="right bottom" />
 			</div>

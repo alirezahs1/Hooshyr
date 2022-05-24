@@ -23,6 +23,7 @@ export const WordAnimator = ({children, play=true, delay=0, speed=1}) => {
 									>{char}</span>
 								)
 							})}
+							&nbsp;
 						</span>
 					)
 				)}

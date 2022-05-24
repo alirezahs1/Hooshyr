@@ -28,10 +28,10 @@ export const Story = ({className, title, image, text, href, meta, ...rest}) => {
 				<div className="mb-2 ">
 					<img className="rounded-lg w-full h-full object-cover" src={image} alt={title} />
 				</div>
-				<h5 className="text-xl font-semibold mb-4">
+				<h5 className="text-xl font-semibold mb-4 mt-4">
 					{title}
 				</h5>
-				<p className="text-gray-400 mb-4">
+				<p className="text-gray-400 mb-4 min-h-[100px]">
 					{text}
 				</p>
 			{/* </a> */}

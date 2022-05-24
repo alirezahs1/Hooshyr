@@ -22,15 +22,17 @@ export const Projects = () => {
 	alowish.com
 	gharar.gharar.ir
 	chikara.ir
+	qc-lab.ir
+	chinomarket.ir
+
 	bahraman.com
 	akamcactus.com
 	geloshin
 	kavatahlil.ir
-	https://admin.rismouna.ir/
-	chinomarket.ir
+	rismouna.ir
+
 	chinomarket.ir v1
 	https://app-admin.chinomarket.ir/
-	qc-lab.ir
 	hadafplus.ir
 	cayload.com
 	https://cafebazaar.ir/app/ir.coleo.parkners
@@ -82,6 +84,48 @@ export const Projects = () => {
 
 	const projects = [
 		{
+			title: "Bahraman Saffron",
+			image: "/media/projects/bahraman.jpg",
+			href: "https://bahraman.com",
+			text: "The official website for the company Bahraman Saffron.",
+			meta: "Django Template"
+		},
+
+		{
+			title: "Akam Cactus",
+			image: "/media/projects/akamcactus.jpg",
+			href: "https://akamcactus.com",
+			text: "The official website for the multi-level marketing company Akam Cactus.",
+			meta: "Django | Next.Js"
+		},
+		{
+			title: "Geloshin",
+			image: "/media/projects/geloshin.jpg",
+			text: "An inventory registration software, connected to the scale, the barcode reader, and the label printer.",
+			meta: "Django | React Js"
+		},
+		{
+			title: "Kava Tahlil",
+			image: "/media/projects/kavatahlil.jpg",
+			text: "A tool for stock market analysis based on Codal's and TSETMC's data reports.",
+			meta: "Django | React Js",
+			href: "https://kavatahlil.ir"
+		},
+		{
+			title: "Rismouna",
+			image: "/media/projects/rismouna.jpg",
+			text: "Developed the string-art algorithm and the admin's panel for customer management",
+			meta: "Django | React Js",
+			href: "https://admin.rismouna.ir"
+		},
+		{
+			title: "Chinomarket V.1",
+			image: "/media/projects/chinomarket.jpg",
+			text: "The first version of Chinomarket (website-based), a startup in the goods distribution industry.",
+			meta: "Django | Next.Js",
+		},
+
+		{
 			title: "Amin Nuts",
 			image: "/media/projects/amin.jpg",
 			href: "https://aminnuts.com",
@@ -95,12 +139,7 @@ export const Projects = () => {
 			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 			meta: "case study"
 		},
-		{
-			title: "Bahraman Saffron",
-			image: "/media/projects/bahraman.jpg",
-			href: "https://bahraman.com",
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-		},
+		
 		{
 			title: "Pestehsho",
 			image: "/media/projects/pestehsho.jpg",
@@ -182,9 +221,9 @@ export const Projects = () => {
 	]
 
 	return (
-		<section ref={ref} className="projects flex flex-col">
+		<section ref={ref} className="projects flex flex-col py-8">
 			<div className="container max-w-6xl mx-auto px-5 xl:px-0">
-				<WavoTitle>Older projects</WavoTitle>
+				<WavoTitle>Other projects</WavoTitle>
 				<div className="max-w-full relative">
 					<Swiper
 						modules={[Navigation, Scrollbar, A11y, Autoplay, Virtual]}
