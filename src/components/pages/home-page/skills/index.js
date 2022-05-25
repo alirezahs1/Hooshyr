@@ -4,43 +4,39 @@ export const Skills = () => {
 
 	const skills = [
 		{
-			title: 'Design & Product',
+			title: 'Backend',
 			items: [
-				'UX/UI Design',
-				'Product Design',
-				'Product Development',
-				'Product Management',
-				'Product Research',
+				'Python | Django',
+				'PHP | WordPress',
+				'PostgreSQL | MySQL',
+				'Celery | RabbitMQ',
 			]
 		},
 		{
-			title: 'Frontend',
+			title: 'CSS',
 			items: [
-				'HTML5',
-				'CSS3',
-				'JavaScript',
-				'React',
+				'Tailwind',
+				'SCSS',
+				'Styled Components',
+				'Bootstrap',
+			]
+		},
+		{
+			title: 'JavaScript',
+			items: [
+				'React Js',
+				'Next.Js',
+				'TypeScript',
 				'Redux',
 			]
 		},
 		{
-			title: 'Backend',
+			title: 'Other',
 			items: [
-				'Node.js',
-				'Express',
-				'MongoDB',
-				'MySQL',
-				'PostgreSQL',
-			]
-		},
-		{
-			title: 'Tools',
-			items: [
-				'Git',
-				'GitHub',
-				'Webpack',
-				'NPM',
-				'Babel',
+				'Git | Linux',
+				'SEO',
+				'Agile | Scrum',
+				'Photoshop',
 			]
 		}
 	]

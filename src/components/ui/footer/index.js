@@ -10,7 +10,7 @@ export const Footer = () => {
 		<footer ref={ref} className="bg-neutral-900 py-10 lg:py-20 text-center lg:text-left">
 			<div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center space-y-6 lg:space-y-0 space-x-0 lg:space-x-12 text-sm px-5 xl:px-0">
 				<div className={`flex-1 animate__animated  ${inView ? "animate__fadeIn" : ""}`}>
-					&copy; 2022 No rights reserved.
+					&copy; {new Date().getFullYear()} No rights reserved.
 				</div>
 				<div className={`flex-1 animate__animated ${inView ? "animate__fadeIn" : ""}`} style={{animationDelay: "300ms"}}>
 					Actually, share, steal (like a pro) and get inspiration as much as you want.
@@ -28,6 +28,7 @@ export const Footer = () => {
 					/>
 				</div>
 			</div>
+			
 		</footer>
 	)
 }

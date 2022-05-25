@@ -1,0 +1,17 @@
+{
+	"short_name": "Hooshyr",
+	"name": "Alireza Hooshyar",
+	"start_url": "/",
+	"background_color": "#000000",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#db2777",
+	"description": "Personal portfolio of Hooshyr",
+	"icons": [
+		{
+			"src": "images/icon-128x128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		}
+	]
+}
