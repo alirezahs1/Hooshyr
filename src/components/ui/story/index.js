@@ -31,7 +31,7 @@ export const Story = ({className, title, image, text, href, meta, ...rest}) => {
 				<h5 className="text-xl font-semibold mb-4 mt-4">
 					{title}
 				</h5>
-				<p className="text-gray-400 mb-4 min-h-[100px]">
+				<p className="text-gray-400 min-h-[100px]">
 					{text}
 				</p>
 			{/* </a> */}
