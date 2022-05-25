@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div className="text-white bg-black">
 		<Head>
-			<title>Home | Hooshyr</title>
+			<title>Home - Hooshyr</title>
 			<link rel="icon" href="/favicon.ico" />
 			<meta name="description" content="Hooshyr is a web developer based in Tehran, Iran. He is a passionate about web development." />
 			{/* og tags */}
-			<meta property="og:title" content="Home - Hooshyr" />
+			<meta property="og:title" content="Home | Hooshyr" />
 			<meta property="og:description" content="Hooshyr is a web developer based in Tehran, Iran. He is a passionate about web development." />
 			<meta property="og:image" content="https://hooshyr.com/media/logo.png" />
 			<meta property="og:url" content="https://hooshyr.com" />
