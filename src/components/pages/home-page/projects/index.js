@@ -30,12 +30,11 @@ export const Projects = () => {
 	geloshin
 	kavatahlil.ir
 	rismouna.ir
-
 	chinomarket.ir v1
-	https://app-admin.chinomarket.ir/
 	hadafplus.ir
 	cayload.com
 	https://cafebazaar.ir/app/ir.coleo.parkners
+
 	https://zimaapp.ir/
 	recolour.org
 	luckyhouse.ir
@@ -123,6 +122,26 @@ export const Projects = () => {
 			image: "/media/projects/chinomarket.jpg",
 			text: "The first version of Chinomarket (website-based), a startup in the goods distribution industry.",
 			meta: "Django | Next.Js",
+		},
+		{
+			title: "Hadaf Plus",
+			image: "/media/projects/hadafplus.jpg",
+			text: "Developed the back-end of application HadafPlus, which manages the curriculum of applicants.",
+			meta: "Django",
+		},
+		{
+			title: "Cayload (SINAX)",
+			image: "/media/projects/cayload.jpg",
+			text: "developed 11 maritime sub-services, the forum, the group management, etc.",
+			meta: "React",
+			href: "https://cayload.com"
+		},
+		{
+			title: "Parkners",
+			image: "/media/projects/parkners.jpg",
+			text: "Developed the admin's panel of application Parkners, parking place reservation management.",
+			meta: "React",
+			href: "https://cafebazaar.ir/app/ir.coleo.parkners"
 		},
 
 		{

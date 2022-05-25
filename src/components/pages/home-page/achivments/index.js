@@ -11,7 +11,7 @@ export const Achivments = ({...rest}) => {
 					{
 						title: "Technical lead :: Chinomarket",
 						date: "Apr 2019 - Sep 2021",
-						description: "I was co-founder and the technical lead at ChinoMarket. ChinoMarket was a startup in the field of distribution of goods.",
+						description: "I was co-founder and the technical lead at ChinoMarket. ChinoMarket was a startup in the field of distribution of goods. Developed the application, the admin's panel, the store's panel, and the landing page.",
 						url: "https://chinomarket.ir"
 					},
 					{
