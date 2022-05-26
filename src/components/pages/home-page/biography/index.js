@@ -4,7 +4,7 @@ import { WavoTitle } from '../../../typography/wavoTitle';
 
 export const Biography = () => {
 	return (
-		<section className="py-8">
+		<section id="story" className="py-8">
 			<div className="max-w-6xl mx-auto my-auto px-5 xl:px-0">
 				<WavoTitle>My story</WavoTitle>
 				<div className="text-neutral-400 leading-8 text-lg">

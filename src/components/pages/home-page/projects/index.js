@@ -411,7 +411,7 @@ export const Projects = () => {
 	}, [search, projects])
 
 	return (
-		<section ref={ref} className="projects flex flex-col py-8">
+		<section id="projects" ref={ref} className="projects flex flex-col py-8">
 			<div className="container max-w-6xl mx-auto px-5 xl:px-0">
 				<WavoTitle>Other projects</WavoTitle>
 				<div className="flex items-center mb-3 sm:mb-6 flex-wrap">
