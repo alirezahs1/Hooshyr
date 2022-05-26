@@ -29,7 +29,7 @@ export const Achivments = ({...rest}) => {
 					{
 						title: "FullStack Developer :: Alowish",
 						date: "Apr 2021 - Sep 2021",
-						description: "Developed Alowish, a health experience-driven website, using ReactJs and Django.",
+						description: "Developed Alowish, a health experience-driven website, using Next.Js and Django.",
 						url: "https://alowish.com"
 					},
 					{

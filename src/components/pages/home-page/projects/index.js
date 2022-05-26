@@ -151,6 +151,13 @@ export const Projects = () => {
 			meta: "Wordpress",
 		},
 		{
+			title: "Maham Marketing",
+			image: "/media/projects/mahammarketing.jpg",
+			href: "https://maham.marketing",
+			text: "The official website for the company Maham.",
+			meta: "Wordpress",
+		},
+		{
 			title: "Riaziate Jafarian",
 			image: "/media/projects/riaziatejafarian.jpg",
 			href: "https://riaziatejafarian.com/",
@@ -441,7 +448,7 @@ export const Projects = () => {
 						modules={[Navigation, Scrollbar, A11y, Autoplay, Virtual]}
 						navigation
 						scrollbar={{ draggable: true }}
-						autoplay={{ delay: 4000, running: true }}
+						autoplay={{ delay: 4000, running: inView }}
 
 						spaceBetween={20}
 						slidesPerView={1}

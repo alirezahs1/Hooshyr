@@ -4,36 +4,40 @@ export const Skills = () => {
 
 	const skills = [
 		{
-			title: 'Backend',
+			title: 'Server-side',
 			items: [
 				'Python | Django',
 				'PHP | WordPress',
-				'PostgreSQL | MySQL',
+				'SQL | NoSQL',
 				'Celery | RabbitMQ',
+				'Nginx | Apache',
 			]
 		},
 		{
-			title: 'CSS',
+			title: 'Client-side',
+			items: [
+				'React Js',
+				'Next.Js | SSR',
+				'Redux | Context API',
+				'React Hooks',
+				'TypeScript',
+			]
+		},
+		{
+			title: 'Styling',
 			items: [
 				'Tailwind',
 				'SCSS',
 				'Styled Components',
 				'Bootstrap',
-			]
-		},
-		{
-			title: 'JavaScript',
-			items: [
-				'React Js',
-				'Next.Js',
-				'TypeScript',
-				'Redux',
+				'Responsive Design',
 			]
 		},
 		{
 			title: 'Other',
 			items: [
 				'Git | Linux',
+				'Data Structures',
 				'SEO',
 				'Agile | Scrum',
 				'Photoshop',
