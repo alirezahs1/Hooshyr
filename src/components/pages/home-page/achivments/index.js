@@ -22,7 +22,7 @@ export const Achivments = ({...rest}) => {
 					},
 					{
 						title: "React Developer :: Gharar",
-						date: "Dec 2022 - Mar 2022",
+						date: "Dec 2021 - Mar 2022",
 						description: "Developed the organizational panel, which companies can hold their meetings, and the landing page.",
 						url: "https://gharar.gharar.ir"
 					},

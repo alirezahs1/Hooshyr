@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 import { Intro, Achivments, Projects, Biography, Education, Skills } from 'components/pages/home-page'
 import { Header } from 'components/ui'
 import { Footer } from 'components/ui/footer'
@@ -8,6 +9,19 @@ export default function Home() {
 
 	return (
 		<div className="text-white bg-black">
+			<Script
+				src="https://www.googletagmanager.com/gtag/js?id=G-59T4Y0QJ0B"
+				strategy="afterInteractive"
+			/>
+			<Script id="google-analytics" strategy="afterInteractive">
+				{`
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){window.dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'G-59T4Y0QJ0B');
+				`}
+			</Script>
 			<Head>
 				<title>Home - Hooshyr</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -24,6 +38,7 @@ export default function Home() {
 				<meta property="og:locale:alternate" content="fa" />
 				<meta property="og:locale:alternate" content="en" />
 			</Head>
+			
 			<Header />
 			<Intro />
 			<Achivments id="achivments" />
