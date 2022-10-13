@@ -21,7 +21,7 @@ export const Intro = () => {
 	return (
 		<section className="h-[calc(100vh_-_40px)] pt-20 sm:min-h-[700px] lg:min-h-[900px] relative overflow-hidden">
 			<div className="absolute left-0 -top-28  bottom-0 -right-72 sm:-right-60 md:-right-40 lg:-right-28 2xl:-right-28">
-				<Image src={BGImg} alt="Hooshyar" layout="fill" objectFit="cover" objectPosition="right bottom" priority={true} quality={90} />
+				<Image src={BGImg} alt="Alireza Hooshyar" layout="fill" objectFit="cover" objectPosition="right bottom" priority={true} quality={90} />
 			</div>
 			<div className="max-w-6xl mx-auto flex flex-col justify-end lg:justify-center relative h-full">
 				<div ref={ref} className="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl 2xl:max-w-4xl pl-5 xl:pl-0">

@@ -23,7 +23,7 @@ export default function Home() {
 				`}
 			</Script>
 			<Head>
-				<title>Home - Hooshyr</title>
+				<title>Alireza Hooshyar</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="description" content="Hooshyr is a web developer based in Tehran, Iran. He is a passionate about web development." />
 				{/* og tags */}
