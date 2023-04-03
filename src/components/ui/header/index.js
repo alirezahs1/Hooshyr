@@ -34,7 +34,7 @@ export const Header = () => {
 			</div>
 			<div className="ml-auto">
 				<SocialLink icon={faGithub} href="https://github.com/alirezahs1/" />
-				<SocialLink icon={faLinkedinIn} href="https://www.linkedin.com/in/alirezahooshyar/" />
+				<SocialLink icon={faLinkedinIn} href="https://www.linkedin.com/in/hooshyr/" />
 				<SocialLink icon={faInstagram} href="https://instagram.com/alirezahooshyar1/" />
 				<SocialLink icon={faGitlab} href="https://gitlab.com/alirezahs" />
 				<SocialLink icon={faWhatsapp} href="https://wa.me/9809388951610" />
